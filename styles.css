@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    .poster {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-image: url("Poster.jpeg"); 
+      background-size: cover;
+      background-position: center;
+    }
+
+    .poster-content {
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin: 0 0 20px;
+    }
+
+    p {
+      font-size: 18px;
+      margin: 0 0 15px;
+    }
+
+    blockquote {
+      font-size: 24px;
+      margin: 0 0 30px;
+    }
+
+    a {
+      color: #fff;
+      text-decoration: none;
+    }
+  footer {
+    color: #f9e2e2;
+    text-align: inherit; 
+  }
+  
+  figure {
+    position: relative;
+  }
+  
+  figure img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
